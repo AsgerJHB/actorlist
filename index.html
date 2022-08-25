@@ -35,7 +35,7 @@
         vis(json);
       }
 
-      function vis(data) {
+      function vis(json) {
         data.forEach((actor) => {
           const klon = temp.cloneNode(true).content;
           klon.querySelector("h2").textContent = actor.fullname;
